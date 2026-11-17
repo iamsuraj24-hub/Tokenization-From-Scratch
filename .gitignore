@@ -1,0 +1,45 @@
+# Virtual Environments
+venv/
+env/
+foundry/
+.venv/
+
+# Environment Variables & Secrets (Crucial!)
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+
+# Python Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs & Editors
+.vscode/
+.idea/
+.windsurf/
+*.swp
+
+# Logs & Local Databases
+*.log
+*.sqlite3
+*.db
+
+# Data, Models & Notebooks (Optional - remove if you want to track small files)
+.ipynb_checkpoints/
+*.csv
+*.parquet
+*.pkl
+*.pt
+*.pth
+*.h5
